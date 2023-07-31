@@ -44,8 +44,7 @@ Development headers and files for %{name} libraries.
 sed -i 's@lib/@%{_lib}/@g' src/CMakeLists.txt
 
 %build
-%cmake -G Ninja \
-       -DBENCHMARK_ENABLE_TESTING:BOOL=OFF
+%cmake -DBENCHMARK_ENABLE_TESTING:BOOL=OFF
 %make_build
 
 %install
