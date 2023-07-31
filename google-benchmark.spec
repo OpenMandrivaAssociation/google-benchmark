@@ -10,7 +10,7 @@ Summary:	A microbenchmark support library
 Group:    System/Libraries
 License:	ASL 2.0
 URL:		  https://github.com/google/benchmark
-Source0:	https://github.com/google/benchmark/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/google/benchmark/archive/v%{version}/benchmark-%{version}.tar.gz
 
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(gmock)
