@@ -61,3 +61,4 @@ sed -i 's@lib/@%{_lib}/@g' src/CMakeLists.txt
 %{_includedir}/benchmark/
 %{_libdir}/cmake/benchmark/
 %{_libdir}/pkgconfig/benchmark.pc
+%{_libdir}/pkgconfig/benchmark_main.pc
