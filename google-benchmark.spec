@@ -1,7 +1,7 @@
 %define libname	%mklibname benchmark
 %define devname	%mklibname benchmark -d
 
-%define api	1
+%define api	0
 
 Name:		  google-benchmark
 Version:	1.8.4
