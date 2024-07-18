@@ -4,7 +4,7 @@
 %define api	0
 
 Name:		  google-benchmark
-Version:	1.8.4
+Version:	1.8.5
 Release:	1
 Summary:	A microbenchmark support library
 Group:    System/Libraries
