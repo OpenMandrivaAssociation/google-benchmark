@@ -4,7 +4,7 @@
 %define api	1
 
 Name:		  google-benchmark
-Version:	1.9.1
+Version:	1.9.5
 Release:	1
 Summary:	A microbenchmark support library
 Group:    System/Libraries
@@ -39,7 +39,7 @@ Development headers and files for %{name} libraries.
 
 
 %prep
-%autosetup -n benchmark-%{version} -p1
+%autosetup -n benchmark-1.9.5 -p1
 
 sed -i 's@lib/@%{_lib}/@g' src/CMakeLists.txt
 
